@@ -3,7 +3,7 @@ const timeBomb = function(){
   let count = 5;
   const blast = function(){
     if(count == 0){
-      console.log("BHOOM")
+      console.log("BHOOM");
       lib.speak("bhoom");
       clearInterval(t);
       return;
